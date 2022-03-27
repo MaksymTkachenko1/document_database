@@ -1,72 +1,62 @@
 const CATALOG = [
     {
-        id: 'elem1',
-        img: 'https://i.ibb.co/hYBCxgv/image.jpg',
-        titleAndAuthor: 'Грокаем алгоритмы. Адитья Бхаргава',
-        ranking: '5',
-        price: 350
+        id: 'el1',
+        name: 'FENDER SQUIER BULLET STRAT HT HSS BLK',
+        img: 'https://i.ibb.co/QJfqs4K/1.jpg',
+        price: 13600,
     },
     {
-        id: 'elem2',
-        img: 'https://i.ibb.co/Sdv21qK/image.jpg',
-        titleAndAuthor: 'Код. Чарльз Петцольд',
-        ranking: '5',
-        price: 398
+        id: 'el2',
+        name: 'FENDER SQUIER AFFINITY',
+        img: 'https://i.ibb.co/pKrG5ZJ/2.jpg',
+        price: 23900,
     },
     {
-        id: 'elem3',
-        img: 'https://i.ibb.co/0BK79D4/image.png',
-        titleAndAuthor: 'Совершенный код. Стив Макконнелл',
-        ranking: '3',
-        price: 775
+        id: 'el3',
+        name: 'IBANEZ GIO GRG121DX-BKF BLACK FLAT',
+        img: 'https://i.ibb.co/NnvcYhR/3.jpg',
+        price: 21600,
     },
     {
-        id: 'elem4',
-        img: 'https://i.ibb.co/hD0VBTd/image.jpg',
-        titleAndAuthor: 'Чистая архитектура. Роберт Мартин',
-        ranking: '4',
-        price: 399
+        id: 'el4',
+        name: 'EPIPHONE LES PAUL STUDIO LT EBONY',
+        img: 'https://i.ibb.co/4Tg91WL/4.jpg',
+        price: 19900,
     },
     {
-        id: 'elem5',
-        img: 'https://i.ibb.co/n87ckMj/image.jpg',
-        titleAndAuthor: 'Чистый код. Роберт Мартин',
-        ranking: '4',
-        price: 429 
+        id: 'el5',
+        name: 'FENDER SQUIER BULLET TREM HSS AWT',
+        img: 'https://i.ibb.co/MC7sy1F/5.jpg',
+        price: 14500,
     },
     {
-        id: 'elem6',
-        img: 'https://i.ibb.co/tMZbcqL/image.jpg',
-        titleAndAuthor: 'Тестирование DOT COM. Роман Савин.',
-        ranking: '4',
-        price: 370
+        id: 'el6',
+        name: 'FENDER SQUIER BULLET MUSTANG HH BLK',
+        img: 'https://i.ibb.co/qNBWPb0/6.jpg',
+        price: 14600,
     },
     {
-        id: 'elem7',
-        img: 'https://i.ibb.co/Z1Rff7g/clr-via-c.jpg',
-        titleAndAuthor: 'CLR via C#. Джеффри Рихтер',
-        ranking: '5',
-        price: 749
+        id: 'el7',
+        name: 'FENDER SQUIER BULLET STRAT HT AWT',
+        img: 'https://i.ibb.co/WH1h2wV/7.jpg',
+        price: 13600,
     },
     {
-        id: 'elem8',
-        img: 'https://i.ibb.co/KxJQXDL/image.jpg',
-        titleAndAuthor: 'Паттерны проектирования. Эрик Фримен',
-        ranking: '5',
-        price: 699 
+        id: 'el8',
+        name: 'JACKSON JS22-7 DINKY SATIN BLACK',
+        img: 'https://i.ibb.co/2cBg9g9/8.jpg',
+        price: 28700,
     },
     {
-        id: 'elem9',
-        img: 'https://i.ibb.co/vjy1GXJ/image.jpg',
-        titleAndAuthor: 'Рефакторинг. Мартин Фаулер',
-        ranking: '4',
-        price: 549 
+        id: 'el9',
+        name: 'JACKSON JS11 DINKY OLYMPIC WHITE',
+        img: 'https://i.ibb.co/wKxFRM8/9.jpg',
+        price: 18100,
     },
     {
-        id: 'elem10',
-        img: 'https://i.ibb.co/vsw7KYL/image.jpg',
-        titleAndAuthor: 'Замыкания и объекты. Кайл Симпсон',
-        ranking: '5',
-        price: 309
+        id: 'el10',
+        name: 'YAMAHA PACIFICA 012 WH',
+        img: 'https://i.ibb.co/30qJcZX/10.jpg',
+        price: 15990,
     }
 ];
