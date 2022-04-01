@@ -9,7 +9,7 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('http://myjson.dit.upm.es/api/bins/9q6z')
+fetch('http://myjson.dit.upm.es/api/bins/9q6z1')
     .then(result => result.json())
     .then(body => {
         CATALOG = body;
@@ -19,5 +19,6 @@ fetch('http://myjson.dit.upm.es/api/bins/9q6z')
         render();
     })
     .catch(error => {
-        console.log(error)
+        spinnerPage.handleClear();
+        errorPage.render();
     });
