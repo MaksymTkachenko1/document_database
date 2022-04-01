@@ -5,12 +5,17 @@ function render() {
     productsPage.render();
 }
 
+spinnerPage.render();
+
 let CATALOG = [];
 
 fetch('http://myjson.dit.upm.es/api/bins/9q6z')
     .then(result => result.json())
     .then(body => {
         CATALOG = body;
+        spinnerPage.handleClear();
+        render();
+        spinnerPage.handleClear();
         render();
     })
     .catch(error => {
