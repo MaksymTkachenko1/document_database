@@ -7,7 +7,7 @@ function render() {
 
 let CATALOG = [];
 
-fetch('http://myjson.dit.upm.es/api/bins/585n')
+fetch('http://myjson.dit.upm.es/api/bins/9q6z')
     .then(result => result.json())
     .then(body => {
         CATALOG = body;

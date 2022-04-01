@@ -1,0 +1,62 @@
+[
+    {
+        "id": "elem1",
+        "name": "Грокаем алгоритмы. Адитья Бхаргава",
+        "img": "https://i.ibb.co/hYBCxgv/image.jpg",
+        "price": 350
+    },
+    {
+        "id": "elem2",
+        "name": "Код. Чарльз Петцольд",
+        "img": "https://i.ibb.co/Sdv21qK/image.jpg",
+        "price": 398
+    },
+    {
+        "id": "elem3",
+        "name": "Совершенный код. Стив Макконнелл",
+        "img": "https://i.ibb.co/0BK79D4/image.png",
+        "price": 775
+    },
+    {
+        "id": "elem4",
+        "name": "Чистая архитектура. Роберт Мартин",
+        "img": "https://i.ibb.co/hD0VBTd/image.jpg",
+        "price": 399
+    },
+    {
+        "id": "elem5",
+        "name": "Чистый код. Роберт Мартин",
+        "img": "https://i.ibb.co/n87ckMj/image.jpg",
+        "price": 429 
+    },
+    {
+        "id": "elem6",
+        "name": "Тестирование DOT COM. Роман Савин.",
+        "img": "https://i.ibb.co/tMZbcqL/image.jpg",
+        "price": 370
+    },
+    {
+        "id": "elem7",
+        "name": "CLR via C#. Джеффри Рихтер",
+        "img": "https://i.ibb.co/Z1Rff7g/clr-via-c.jpg",
+        "price": 749
+    },
+    {
+        "id": "elem8",
+        "name": "Паттерны проектирования. Эрик Фримен",
+        "img": "https://i.ibb.co/KxJQXDL/image.jpg",
+        "price": 699 
+    },
+    {
+        "id": "elem9",
+        "name": "Рефакторинг. Мартин Фаулер",
+        "img": "https://i.ibb.co/vjy1GXJ/image.jpg",
+        "price": 549 
+    },
+    {
+        "id": "elem10",
+        "name": "Замыкания и объекты. Кайл Симпсон",
+        "img": "https://i.ibb.co/vsw7KYL/image.jpg",
+        "price": 309
+    }
+]
