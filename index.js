@@ -9,7 +9,7 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('http://myjson.dit.upm.es/api/bins/9q6z1')
+fetch('http://myjson.dit.upm.es/api/bins/9q6z')
     .then(result => result.json())
     .then(body => {
         CATALOG = body;
