@@ -31,6 +31,7 @@ class Shopping {
                         <td class="shopping-element__price">${sumCatalog.toString()} грн</td>
                     </tr>
                 </table>
+                <button onclick="document.location='//url//'">Оформить заказ</button>
             </div>
         `;
         ROOT_SHOPPING.innerHTML = html;
