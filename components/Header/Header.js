@@ -1,13 +1,13 @@
 class Header {
-    handlerOpenShoppingPage() {
-        shoppingPage.render();
+    handlerOpenShoppingCartPage() {
+        shoppingCartPage.render();
     }
 
     render(count) {
         const html = `
         <div class="header-container">
-            <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                🔥 ${count}
+            <div class="header-counter" onclick="headerPage.handlerOpenShoppingCartPage();">
+            🛒 ${count}
             </div>
         </div>
         `;

@@ -3,8 +3,7 @@ class Error {
         const html = `
         <div class="error-container">
             <div class="error-message">
-                <h3>Технические работы.</h3>
-                <p>Приносим извинения за неудобства.</p>
+                <h3>Ошибка. Не удалось получить данные.</h3>
             </div>
         </div>
         `;

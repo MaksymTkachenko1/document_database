@@ -9,16 +9,17 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('https://api.jsonserve.com/x-7hyF')
-    .then(result => result.json())
-    .then(body => {
-        CATALOG = body;
-        spinnerPage.handleClear();
-        render();
-        spinnerPage.handleClear();
-        render();
-    })
-    .catch(error => {
-        spinnerPage.handleClear();
-        errorPage.render();
-    });
+fetch('https://api.npoint.io/066819cc9430e03729e8'
+).then(response => response.json())
+    .then(data => {
+    console.log(data)
+    CATALOG = data;
+    spinnerPage.handleClear();
+    render();
+})
+.catch(() => {
+    spinnerPage.handleClear();
+    errorPage.render();
+});
+
+  
