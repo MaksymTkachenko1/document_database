@@ -9,10 +9,9 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('https://api.npoint.io/066819cc9430e03729e8'
+fetch('https://api.jsonbin.io/b/6262a7bebc312b30ebeb5dda'
 ).then(response => response.json())
     .then(data => {
-    console.log(data)
     CATALOG = data;
     spinnerPage.handleClear();
     render();
@@ -21,5 +20,7 @@ fetch('https://api.npoint.io/066819cc9430e03729e8'
     spinnerPage.handleClear();
     errorPage.render();
 });
+
+
 
   

@@ -31,7 +31,7 @@ class ShoppingCart {
                         <td class="shopping-cart-element__price">${sumCatalog.toString()} грн</td>
                     </tr>
                 </table>
-                <button onclick="document.location='https://ordering-it-books.netlify.app'">Оформить заказ</button>
+                <button class="btn1" onclick="document.location='https://ordering-it-books.netlify.app'">Оформить заказ</button>
             </div>
         `;
         ROOT_SHOPPING_CART.innerHTML = html;

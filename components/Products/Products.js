@@ -5,7 +5,7 @@ class Products {
         this.labelRemove = 'Удалить из корзины';
     }
 
-    handleSetLocationStorage(element, id) {
+    handleSetStorageLocation(element, id) {
         const { pushProduct, products } = localStorageUtil.putProducts(id);
         
         if (pushProduct) {
@@ -42,7 +42,7 @@ class Products {
                         ⚡️ ${price.toString()} грн
                     </span>
                     <button class="products-element__btn${activeClass}" 
-                    onclick="productsPage.handleSetLocationStorage(this, '${id}');">
+                    onclick="productsPage.handleSetStorageLocation(this, '${id}');">
                         ${activeText}
                     </button>
                 </li>
