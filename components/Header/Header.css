@@ -10,3 +10,20 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+#searchBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+    padding: 8px; 
+}
+
+#input {
+    padding: 5px; 
+    margin-bottom: 10px;
+}
