@@ -12,4 +12,4 @@ class Error {
     }
 }
 
-const errorPage = new Error;
+const errorPage = new Error();
